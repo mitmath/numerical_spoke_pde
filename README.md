@@ -2,7 +2,7 @@
 
 This new (**Spring 2026**) MIT subject, part of MIT's Common Ground for Computing Education, introduces numerical methods and numerical analysis to a broad audience (assuming 18.03, 18.06, or equivalents, and some programming experience).  It is divided into two 6-unit halves:
 
-*  [16.C21/18.C21 Interdisciplinary Numercal Methods](https://github.com/mitmath/numerical_hub) (first half-term “hub”): basic numerical methods, including curve fitting, root finding, numerical differentiation and integration, numerical differential equations, and floating-point arithmetic. Emphasizes the complementary concerns of accuracy and computational cost.  [Prof. Steven G. Johnson](http://math.mit.edu/~stevenj) and [Prof. Youssef Marzouk](https://aeroastro.mit.edu/people/youssef-m-marzouk/).
+*  [16.C21/18.C21 Interdisciplinary Numerical Methods](https://github.com/mitmath/numerical_hub) (first half-term “hub”): basic numerical methods, including curve fitting, root finding, numerical differentiation and integration, numerical differential equations, and floating-point arithmetic. Emphasizes the complementary concerns of accuracy and computational cost.  [Prof. Steven G. Johnson](http://math.mit.edu/~stevenj) and [Prof. Youssef Marzouk](https://aeroastro.mit.edu/people/youssef-m-marzouk/).
 
 *   Second half-term: two options for 6-unit “spokes”
 

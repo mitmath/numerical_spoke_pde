@@ -18,15 +18,15 @@ Taking both the hub and any spoke will count as an 18.3xx class for math majors,
 
 **Instructors**: [Prof. Youssef Marzouk](https://aeroastro.mit.edu/people/youssef-m-marzouk/) and TA [Andrey Bryutkin](https://math.mit.edu/directory/profile.html?pid=2582).
 
-**Lectures**: MWF10 in 45-102 (Mar 30–May 11). 6 units. Prerequisite = 16.C21/18.C21 hub or permission of instructor.
+**Lectures**: MWF10 in 45-102 (Mar 30–May 11). 6 units. Prerequisite = 16.C21/18.C21 or permission of instructor.
 
 **Assignments**: 
 
-* 4 weekly **problem sets**, due Wednesdays at midnight (April 8, 15, 22, 29). Students will have **oral check-ins** on 3 psets (randomly selected) where they have to explain their work (pass/fail per problem). 
+* 4 weekly **problem sets**, due Wednesdays at 11:59 pm (April 8, 15, 22, 29). You will have **oral check-ins** on 3 psets (randomly selected) where you have to explain your work to the TA or instructor (pass/fail per problem). 
 
-* **Problem set collaboration policy:** Talk to anyone you want to and read anything you want to, with two caveats: First, make a solid effort to solve a problem on your own before discussing it with classmates or googling. Second, no matter whom you talk to or what you read, write up the solution on your own, without having their answer in front of you (this includes ChatGPT and similar). (You can use [psetpartners.mit.edu](https://psetpartners.mit.edu/) to find problem-set partners.)
+* **Problem set collaboration policy:** Talk to anyone you want to and read anything you want to, with two caveats: First, make a solid effort to solve a problem on your own before discussing it with classmates or googling. Second, no matter whom you talk to or what you read, write up the solution on your own, without having their answer in front of you (this includes ChatGPT and similar). (You can use [psetpartners.mit.edu](https://psetpartners.mit.edu/) to find problem set partners.)
 
-* An individual **final project**, where each student implements and explores a method for numerical solution of PDEs that goes beyond what was previously covered in class. (This could involve a more sophisticated numerical method and/or a different class of PDEs.) The project will comprise both an oral presentation to the class (May 6, 8, or 11) and a written report (due May 12).
+* An individual **final project**, in which you will implement and explore a method for numerical solution of PDEs that goes beyond what was previously covered in class. (This could involve a more sophisticated numerical method and/or a different class of PDEs.) The project will comprise both an oral presentation to the class (May 6, 8, or 11) and a written report (due May 12).
 
 * Homework assignments will require some programming. You can use either **Julia or Python** (your choice; instruction and examples will mostly use Julia).
 
@@ -37,8 +37,6 @@ Taking both the hub and any spoke will count as an 18.3xx class for math majors,
 * _No in-class exams and no final exam!_
 
 **Grading**: 40% psets + 25% check-ins + 30% final project + 5% lecture attendance.
-
-
 
 **Office Hours**: Prof. Marzouk: TBD. Prof. Bryutkin: TBD.
 

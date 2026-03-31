@@ -52,3 +52,8 @@ Taking both the hub and any spoke will count as an 18.3xx class for math majors,
 * 16.C21A/18.C21A overview and syllabus: [slides](https://docs.google.com/presentation/d/1jY9VeOsxbLqwb817167KFCWfLFx68OREWwnDs7A0kw0/edit?usp=sharing)
 
 We talked about the broad and rough categorization of PDEs into equations of elliptic, parabolic, and hyperbolic type. Then we presented certain canonical PDEs and their analytical solutions in simple settings, with a focus on intuitively understanding the behavior that these equations encode: (1) the advection equation $u_t - a u_x$, and (2) the diffusion equation $u_t = \mu u_{xx}$ (for $\mu > 0$), along with their multi-dimensional ($x \in \mathbb{R}^d$ for $d > 1$) analogs. We discussed the notions of initial condition and boundary conditions, and discussed roughly what kinds of boundary conditions make sense to impose in different situations.
+
+## Lecture 2 (Apr 1)
+
+* [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 8
+* Jupyter notebook demo (TBA)

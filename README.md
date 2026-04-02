@@ -56,4 +56,8 @@ We talked about the broad and rough categorization of PDEs into equations of ell
 ## Lecture 2 (Apr 1)
 
 * [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 8
-* Jupyter notebook demo (TBA)
+* [Problem Set #1](psets/pset1.ipynb), due on Wednesday April 8
+
+We focused on advection-diffusion equations in one spatial dimension, and discussed how to build a semi-discrete approximation by substituting finite difference approximations of the spatial derivatives. The resulting ODE system can be solved by a variety of means; this approach (build a semi-discrete system and then apply an numerical ODE integration scheme) is generally known as the method of lines. Many—but not all—finite difference methods for PDEs can be constructed this way.
+
+We also talked about simple boundary conditions, specifically Dirichlet and Neumann conditions, first in the continuous setting and then their discrete numerical implementations.

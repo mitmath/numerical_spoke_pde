@@ -61,3 +61,15 @@ We talked about the broad and rough categorization of PDEs into equations of ell
 We focused on advection-diffusion equations in one spatial dimension, and discussed how to build a semi-discrete approximation by substituting finite difference approximations of the spatial derivatives. The resulting ODE system can be solved by a variety of means; this approach (build a semi-discrete system and then apply an numerical ODE integration scheme) is generally known as the method of lines. Many—but not all—finite difference methods for PDEs can be constructed this way.
 
 We also talked about simple boundary conditions, specifically Dirichlet and Neumann conditions, first in the continuous setting and then their discrete numerical implementations.
+
+## Lecture 3 (Apr 3)
+
+* [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 8
+
+We talked about how to implement Neumann boundary conditions in a finite different scheme. Then we discussed the notion of local truncation error of a finite difference PDE discretization (and how this differs subtly from the notion of local truncation error we considered for ODE discretization), and derived local truncation error for a forward-time central-space discretization of our running-example advection-diffusion PDE. Then we did tried integrating this system in a simple code and found, in practice, major instabilities!
+
+## Lecture 4 (April 6)
+
+* [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 9
+* Julia notebook examples: [this](notes/MatrixEigsFD.ipynb) and [that](notes/FTCS.ipynb)
+

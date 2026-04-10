@@ -78,9 +78,9 @@ We focused on matrix stability analysis of finite difference methods, centered o
 ## Lecture 5 (April 8)
 
 * [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 10
-* Julia notebook to be posted
+* [Julia notebook](notes/eigenvalue-scalings.ipynb) to look at eigenvalues and eigenvectors of $A$
 
-We started discussing Fourier stability analysis of finite difference methods. First we looked at very "clean" examples of the eigenvalues of the semi-discrete ODE system produced by discretizing pure advection and pure diffusion with period boundary conditions and centered differences; we saw that the absolute magnitude of the largest eigenvalues scaled with $\Delta x$ and with $(\Delta x)^2$, respectively. We tried to intepret the eigenvectors as well; for instance, why does the _constant_ (e.g., "all ones") eigenvector correspond to zero eigenvalue? Which eigenvectors are more oscillatory? Then we set about understanding/predicting the entire eigenvalue spectra analytically. We derived the general Fourier solution of the continuous linear advection-diffusion PDE (with periodic BCs) and interpreted it. Then we started looking at the Fourier solution of the semi-discrete equation, but didn't get too far.
+We started discussing Fourier stability analysis of finite difference methods. First we looked at very "clean" examples of the eigenvalues of the semi-discrete ODE system matrix $A$ produced by discretizing pure advection and pure diffusion with period boundary conditions and centered differences; we saw that the absolute magnitude of the largest eigenvalues scaled with $\Delta x$ and with $(\Delta x)^2$, respectively. We tried to intepret the eigenvectors as well; for instance, why does the _constant_ (e.g., "all ones") eigenvector correspond to zero eigenvalue? Which eigenvectors are more oscillatory? Then we set about understanding/predicting the entire eigenvalue spectra analytically. We derived the general Fourier solution of the continuous linear advection-diffusion PDE (with periodic BCs) and interpreted it. Then we started looking at the Fourier solution of the semi-discrete equation, but didn't get too far.
 
 ## Lecture 6 (April 10)
 

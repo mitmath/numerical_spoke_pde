@@ -73,7 +73,7 @@ We talked about how to implement Neumann boundary conditions in a finite differe
 * [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 9
 * Julia notebook examples: [this](notes/MatrixEigsFD.ipynb) and [that](notes/FTCS.ipynb)
 
-Notes to be filled in.
+We focused on matrix stability analysis of finite difference methods, centered on demonstrations of forward-time central-space discretizations of pure advection and advection-diffusion equations. We looked at the eigenvalues of the semi-discrete system and interpreted their locations, for increasing Péclet number (moving from diffusion-dominated to advection-dominated). We also examined the impact of boundary conditions on these eigenvalues and the impact of grid size on these eigenvalues. We also discussed the notion of "numerical domain of dependence," the CFL number, and the CFL condition. Finally, to make our demos work more nicely (e.g., avoiding instabtilities and allowing larger timesteps in the diffusive case), we showed results of implicit (backward Euler) rather than explicit time integration.
 
 ## Lecture 5 (April 8)
 
@@ -86,6 +86,7 @@ We started discussing Fourier stability analysis of finite difference methods. F
 
 * [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 10
 * Start on [Problem Set #2](psets/pset2.ipynb), due Wednesday April 15
+* [Notes on finite volume methods](notes/Fvnotes.pdf)
 
 
-Prof. Bryutkin will pick up on Fourier analysis of the semi-discretized PDE.
+Prof. Bryutkin will pick up on Fourier analysis of the semi-discretized PDE. Time permitting, he will start finite volume methods (new topic!).

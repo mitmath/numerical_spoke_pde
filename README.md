@@ -73,3 +73,19 @@ We talked about how to implement Neumann boundary conditions in a finite differe
 * [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 9
 * Julia notebook examples: [this](notes/MatrixEigsFD.ipynb) and [that](notes/FTCS.ipynb)
 
+Notes to be filled in.
+
+## Lecture 5 (April 8)
+
+* [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 10
+* Julia notebook to be posted
+
+We started discussing Fourier stability analysis of finite difference methods. First we looked at very "clean" examples of the eigenvalues of the semi-discrete ODE system produced by discretizing pure advection and pure diffusion with period boundary conditions and centered differences; we saw that the absolute magnitude of the largest eigenvalues scaled with $\Delta x$ and with $(\Delta x)^2$, respectively. Then we set about understanding/predicting the entire eigenvalue spectra analytically. We derived the general Fourier solution of the continuous linear advection-diffusion PDE (with periodic BCs) and interpreted it. Then we started looking at the Fourier solution of the semi-discrete equation, but didn't get too far.
+
+## Lecture 6 (April 10)
+
+* [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 10
+* Start on [Problem Set #2](psets/pset2.ipynb), due Wednesday April 15
+
+
+Prof. Bryutkin will pick up on Fourier analysis of the semi-discretized PDE.

@@ -86,7 +86,36 @@ We started discussing Fourier stability analysis of finite difference methods. F
 
 * [Notes on finite difference methods](notes/FDnotes.pdf): Chapter 10
 * Start on [Problem Set #2](psets/pset2.ipynb), due Wednesday April 15
-* [Notes on finite volume methods](notes/Fvnotes.pdf)
+* [Notes on finite volume methods](notes/FVnotes.pdf)
 
 
-Prof. Bryutkin will pick up on Fourier analysis of the semi-discretized PDE. Time permitting, he will start finite volume methods (new topic!).
+Prof. Bryutkin finished discussing Fourier analysis of finite difference methods, focusing the semi-discretized case. Then he started discussing finite volume methods (sections 7.1 and 7.2 of the notes).
+
+
+## Lecture 7 (April 13)
+
+* [Notes on finite volume methods](notes/FVnotes.pdf)
+
+We recapped the motivation of finite volume methods, recalling integral forms of conservation laws. Then we discussed finite volume methods for convection in one spatial dimension, introducing the notion of an upwind flux and how to calculate it.
+
+## Lecture 8 (April 15)
+
+* [Notes on finite volume methods](notes/FVnotes.pdf)
+* [Demos of finite volume methods, in 1-D and 2-D](notes/FVconvection.ipynb)
+* [Method of weighted residuals](notes/FEMnotes.pdf): Chapter 11 of our FEM notes
+
+
+We discussed extensions of the finite volume method (again focusing on a simple convection problem) to two spatial dimensions, and showed how to calculate the flux terms for a triangular mesh. Then we did some computational experiments (with a rectangular mesh) and discussed conservation properties of the scheme.
+
+Next, we switched to an entirely new topic: the method of weighted residuals (MWR), as motivations for more specific finite element schemes. We didn't quite get to MWR, but rather just set up the problem of approximating our PDE solution in some (generic) basis and started thinking about how to find the coefficients of the approximation in this basis by looking at the residual of the PDE.
+
+## Lecture 9 (April 17)
+
+* [Method of weighted residuals](notes/FEMnotes.pdf): Chapter 11 of our FEM notes
+* [Demos/comparisons of collocation and the method of weighted residuals](notes/Collocation-MWR.ipynb)
+* Start on [Problem Set #3](psets/pset3.ipynb), due **Thursday April 23** (one day later than usual)
+
+We will discuss (i) collocation and (ii) the method of weighted residuals. These are preparation for finite element methods, which we'll start next week.
+
+We will also revisit questions from last time about the conservation properties of finite volume schemes.
+

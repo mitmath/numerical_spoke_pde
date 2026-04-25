@@ -115,7 +115,27 @@ Next, we switched to an entirely new topic: the method of weighted residuals (MW
 * [Demos/comparisons of collocation and the method of weighted residuals](notes/Collocation-MWR.ipynb)
 * Start on [Problem Set #3](psets/pset3.ipynb), due **Thursday April 23** (one day later than usual)
 
-We will discuss (i) collocation and (ii) the method of weighted residuals. These are preparation for finite element methods, which we'll start next week.
+We discussed (i) collocation and (ii) the method of weighted residuals. These are preparation for finite element methods, which we'll start next week.
 
-We will also revisit questions from last time about the conservation properties of finite volume schemes.
+We also revisited questions from last time about the conservation properties of finite volume schemes, showing that while "total mass" (e.g., $\int U dx$) is conserved, energy-type quantities like $\int |U|^2 dx$ are generally not.
+
+## Lecture 10 (April 20)
+* [Method of weighted residuals](notes/FEMnotes.pdf): Chapter 11 of our FEM notes
+* [Demos/comparisons of collocation and the method of weighted residuals](notes/Collocation-MWR.ipynb)
+
+We continued our discussion of the method of weighted residuals and demonstrated the Galerkin MWR for a simple diffusion equation, analytically and numerically. We then discussed what is and is not computationally tractable about this method, and in particular how one might want to choose basis functions that make integrals more numerically tractable and that also allow for more complex geometries.
+
+
+## Lecture 11 (April 22)
+* [Finite element methods in one dimension](notes/FEMnotes.pdf): Chapter 12
+
+We launched into details of finite element methods, in one spatial dimension, using the diffusion equation with heterogeneous coefficient as our running example. We defined elements, discussed choices of basis (trial + test) functions, and settled on a linear nodal basis (for now). We then recalled integration by parts and derived equations for the residual that take special advantage of the shape of these basis functions, focused for now on interior nodes. 
+
+
+## Lecture 12 (April 24)
+* [Finite element methods in one dimension](notes/FEMnotes.pdf): Chapter 12
+* Computational demos: [FEM with Dirichlet BCs only, in Julia](notes/FEM-1D.ipynb); [FEM with a variety of BCs and convergence plots, in python](notes/FEM-1D_python.ipynb)
+* [Problem Set #4](psets/pset4.ipynb), due Friday May 1
+
+We completed our discussion of finite element methods in 1-D: how to assemble the stiffness matrix element-by-element and how to integrate spatially varying source terms and diffusion coefficients. We then discussed how to implement boundary conditions: Dirichlet, Neumann, and Robin. Finally we looked at a computational demo (link above). 
 

@@ -139,3 +139,9 @@ We launched into details of finite element methods, in one spatial dimension, us
 
 We completed our discussion of finite element methods in 1-D: how to assemble the stiffness matrix element-by-element and how to integrate spatially varying source terms and diffusion coefficients. We then discussed how to implement boundary conditions: Dirichlet, Neumann, and Robin. Finally we looked at a computational demo (link above). 
 
+## Lecture 13 (April 27)
+* [Higher-order finite element methods](notes/FEMnotes.pdf): Chapter 14
+* Computational demos: [1-D diffusion with quadratic nodal basis](notes/FEM1D-higherorder.ipynb) and [1-D diffusion with hierarchical quadratic basis](notes/FEM1D-hierarchical.ipynb)
+* **Important:** [Final project guidelines and due dates](psets/projfinal.pdf)
+
+We had a quick review of how to assemble the global stiffness matrix from elemental stiffness matrices. Then we recalled the idea of a "reference element" in 1-D. Then we switched into the main topic of the lecture: higher-order FEM, focusing for now on the quadratic case. We presented a nodal basis for quadratic elements, able to capture arbitrary quadratic functions on each element and providing a _continuous, piecewise quadratic_ approximation $\widetilde{T}$ overall. Then we discussed how to build a hierarchical basis for quadratic elements. We demonstrated both of these choices computationally on our running 1-D diffusion example, paying particular attention to: (1) the sparsity pattern of the global stiffness matrix; and (2) the rate of convergence, which here was 3rd order (i.e., error = $O(\Delta x^3)$). 

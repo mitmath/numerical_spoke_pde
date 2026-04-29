@@ -47,6 +47,38 @@ Taking both the hub and any spoke will count as an 18.3xx class for math majors,
 
 **Textbook**: No required textbook. We will generally follow **pdf course notes** that will be posted below, along with suggestions for further reading following each lecture. Also, the book [*Fundamentals of Numerical Computation* (FNC)](https://fncbook.com/) by Driscoll and Braun is freely available online, has examples in Julia, Python, and Matlab, and is a valuable extra resource. 
 
+## Meshers for 2D PDE Problems in Python
+
+**Gmsh / pygmsh**: [Gmsh](https://gmsh.info/)
+
+```python
+import gmsh
+# or: import pygmsh
+```
+
+General-purpose 2D/3D mesher for realistic geometries, holes, curved boundaries, and boundary tags.  
+Limitation: It is more complex to set up and use than lightweight Python-only mesh generators.
+
+**MeshPy**: [MeshPy](https://pypi.org/project/MeshPy/)
+
+```python
+from meshpy.triangle 
+import MeshInfo, build
+```
+
+Lightweight Python interface to Triangle, useful for polygonal 2D domains with direct access to vertices and elements.  
+Limitation: It is less convenient for CAD-like geometries and more complex boundary-tagging workflows.
+
+**meshzoo**: [meshzoo](https://github.com/meshpro/meshzoo)
+
+```python
+import meshzoo
+points, cells = meshzoo.rectangle_tri(...)
+```
+
+Simple mesh generator for standard domains such as rectangles, disks, and triangles.  
+Limitation: It is mainly intended for simple geometries and is not suitable for complex domains.
+
 ## Lecture 1 (Mar 31)
 
 * 16.C21A/18.C21A overview and syllabus: [slides](https://docs.google.com/presentation/d/1jY9VeOsxbLqwb817167KFCWfLFx68OREWwnDs7A0kw0/edit?usp=sharing)
